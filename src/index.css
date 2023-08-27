@@ -26,7 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: left;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -78,8 +78,8 @@ body {
 
 .birthdayCard {
   position: relative;
-  width: 250px;
-  height: 350px;
+  width: 340px;
+  height: 420px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -103,8 +103,8 @@ body {
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 250px;
-  height: 350px;
+  width: 340px;
+  height: 420px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -116,7 +116,9 @@ body {
   font-family: Tahoma, sans-serif;
   text-align: center;
   margin: 30px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: #f5a84b;
+  font-size: x-large;
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
   transition: 0.1s;
   backface-visibility: visible;
 }
@@ -203,8 +205,8 @@ body {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 250px;
-  height: 350px;
+  width: 340px;
+  height: 420px;
   z-index: -1;
   left: 0;
   top: 0;
@@ -212,9 +214,11 @@ body {
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
+  /* font-family: "Brush Script MT", cursive; */
+  text-align: justify;
   margin: 40px;
   color: #333;
+  font-size: medium;
 }
 
 .name {
@@ -231,4 +235,19 @@ p {
   margin: 30px;
   outline-color: #333;
   outline-style: dotted;
+}
+
+.img {
+  margin-top: "0.5rem";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  cursor: none;
+  rotate: 20;
+  align-self: start;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 1s;
+  left: 50px;
+  bottom: 50px;
 }

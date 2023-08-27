@@ -1,10 +1,15 @@
 import "./index.css";
+import ThuyNghe from "./assets/thuy.yeu.nghe.jpg";
 
 const BirthdayCard = () => {
   return (
     <div className="birthdayCard">
       <div className="cardFront">
-        <h3 className="happy">Chúc mừng sinh nhật vợ Ộc</h3>
+        <h3 className="happy">
+          Chúc mừng sinh nhật
+          <br />
+          vợ Ộc
+        </h3>
         <div className="balloons">
           <div className="balloonOne" />
           <div className="balloonTwo" />
@@ -14,14 +19,24 @@ const BirthdayCard = () => {
       </div>
       <div className="cardInside">
         <h3 className="back">Vợ Ộc sinh nhật vui vẻ</h3>
-        <p>Vợ ơi,</p>
         <p>
-          Sinh nhật lần thứ 2 của vợ và đây là sinh nhật vợ chồng mình ở cách xa
-          nhau, nhưng chồng vẫn luôn nhớ yêu vợ, chồng dành cho vợ một món quà
-          thật đặt biệt, chồng chúc vợ sẽ luôn vui vẻ, thành công và luôn mãi
-          xinh đẹp vợ nhé!
+          Ộc ơi,
+          <br /> Chồng chúc Ộc luôn vui vẻ, thành công và mãi xinh đẹp vợ nhé!
+          sinh nhật vợ chồng mình ở xa nhau, nhưng tình cảm vợ chồng mình luôn
+          dành cho nhau vợ nhé!
         </p>
-        <p className="name">Pawan</p>
+        <p className="name">
+          2023/09/11, Chồng của vợ <br />
+          Nghệ
+        </p>
+
+        <img
+          className="img"
+          src={ThuyNghe}
+          alt="Ộc"
+          title="Ộc và Nghệ"
+          loading="lazy"
+        />
       </div>
     </div>
   );
