@@ -22,7 +22,7 @@ const BirthdayCard = () => {
         <p>
           Ộc ơi,
           <br /> Chồng chúc Ộc luôn vui vẻ, thành công và mãi xinh đẹp vợ nhé!
-          sinh nhật vợ chồng mình ở xa nhau, nhưng tình cảm vợ chồng mình luôn
+          Sinh nhật vợ chồng mình ở xa nhau, nhưng tình cảm vợ chồng mình luôn
           dành cho nhau vợ nhé!
         </p>
         <p className="name">
